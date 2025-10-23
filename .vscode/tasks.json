@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build Play.Trading.Service",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "c:\\Users\\jacek\\source\\repos\\MicroservicesAzure\\Play.Trading\\src\\Play.Trading.Service\\Play.Trading.Service.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
